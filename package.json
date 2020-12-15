@@ -1,0 +1,26 @@
+{
+  "name": "react-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "yarn run check:style",
+    "check:style": "prettier --check .",
+    "export": "next export",
+    "setup": "node ./backend/setupFridge.js"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "next": "10.0.3",
+    "node-sass": "^5.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
